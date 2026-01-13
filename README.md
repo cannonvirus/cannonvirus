@@ -1,6 +1,4 @@
-- 👋 Hi, I’m @cannonvirus
-- 👀 I’m interested in LLM, Stable-Diffusion Model
-- I work on Intflow to develop Edgefarm 
+- 휴식 중
 
 <!---
 cannonvirus/cannonvirus is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
