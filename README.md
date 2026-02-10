@@ -1,7 +1,7 @@
 # Hi there, I'm Sohyun Ju <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=27&duration=3000&pause=1000&color=2E97F7&center=true&vCenter=true&width=700&lines=Pushing+AI+Beyond+Hardware+Limits+🚀;Robust+Logic+from+Statistical+Insights+📊;Optimization+Down+to+the+Microsecond+⏱️" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=27&duration=3000&pause=1000&color=76B900&center=true&vCenter=true&width=700&lines=Pushing+AI+Beyond+Hardware+Limits+🚀;Robust+Logic+from+Statistical+Insights+📊;Optimization+Down+to+the+Microsecond+⏱️" alt="Typing SVG" />
 </div>
 
 <div align="center">
