@@ -9,37 +9,37 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/1-peoplecount-pipeline-dark.svg">
-  <img src="assets/1-peoplecount-pipeline-light.svg" width="100%" alt="1. People Count 파이프라인. RTSP 카메라 5대의 입력을 채널별로 감시하고, DeepStream C++ 파이프라인에서 디코드한 뒤 직접 구현한 VPI 블러 플러그인으로 전체 프레임을 비식별화한다. TensorRT 기반 YOLO로 검출하고, 직접 구현한 추적과 구역 집계 플러그인을 거쳐 MQTT와 WebSocket으로 전송한다. Orin Nano 한 대에서 5채널을 채널당 20 fps로 처리했다. 삼성웰스토리 오픈 이노베이션 6기 과제, 2025.06 – 2025.12.">
+  <img src="assets/1-peoplecount-pipeline-light.svg" width="100%" alt="1. People Count 파이프라인. RTSP 카메라 5대의 입력을 채널별로 감시하고, DeepStream C++ 파이프라인에서 디코드한 뒤 직접 구현한 VPI 블러 플러그인으로 전체 프레임을 비식별화한다. TensorRT 기반 YOLO로 검출하고, 직접 구현한 추적과 구역 집계 플러그인을 거쳐 MQTT와 WebSocket으로 전송한다. Orin Nano 한 대에서 5채널을 채널당 20 fps로 처리했다.">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/2-measured-reconnect-dark.svg">
-  <img src="assets/2-measured-reconnect-light.svg" width="100%" alt="2. 정답 기록과 대조해 측정한 수치. 돼지 카운팅 정확도 99.8%, 출하성적서의 실제 마릿수 기준. 평균 체중 정확도 98.2%, 출하 단위 평균 체중 기준. 개체 체중 평균 오차 5%, 40두 대상 국가 주관 실험에서 인증 통과. 피플 카운팅 정확도 96.4%, 3개월 점심 인원을 식수 태깅기 로그와 대조. 혼잡도 3단계 판정 94.6%, 팀원이 현장 사진에 붙인 라벨과 대조. 열화상 온도 오차 0.3도 이내, 접촉식 체온계와 대조. 3. 채널별 독립 재연결. RTSP 입력마다 프레임 유입을 감시해 끊긴 채널만 다시 연결하고, 나머지 네 채널의 집계는 유지한다.">
+  <img src="assets/2-measured-reconnect-light.svg" width="100%" alt="2. 정답 기록과 대조해 측정한 수치: 99.8 % 돼지 카운팅 정확도 (출하성적서의 실제 마릿수); 98.2 % 평균 체중 정확도 (출하 단위 평균 체중); 5 % 개체 체중 평균 오차율 (40두, 국가 주관 실험 인증 통과); 96.4 % 피플 카운팅 정확도 (3개월 점심 인원, 식수 태깅기 로그); 94.6 % 혼잡도 3단계 판정 (팀원이 현장 사진에 붙인 라벨); 0.3 °C 열화상 온도 오차, 이내 (접촉식 체온계). 3. 채널별 독립 재연결: RTSP 입력마다 프레임 유입을 감시해 끊긴 채널만 다시 연결하고 나머지 네 채널의 집계는 유지한다.">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/4-count-architecture-dark.svg">
-  <img src="assets/4-count-architecture-light.svg" width="100%" alt="4. EdgeFarm Count 아키텍처, 2021 – 2025, 농장 상용 제품에 적용. 카메라 영상에서 검출, 키포인트, 세그멘테이션을 TensorRT로 추론하고 디코드와 NMS를 CUDA 커널로 처리한 뒤 회전 상자 겹침과 중심점 거리로 추적한다. 이후 여러 집계선의 결과를 종합해 마릿수를 확정하는 경로와, 화소를 센티미터로 환산한 입력으로 Transformer 계열 모델이 체중을 예측하는 경로로 나뉜다. 돼지일 수 없는 추정 체중의 검출은 집계에서 제외한다.">
+  <img src="assets/4-count-architecture-light.svg" width="100%" alt="4. EdgeFarm Count 아키텍처. 카메라 영상에서 검출, 키포인트, 세그멘테이션을 TensorRT로 추론하고 디코드와 NMS를 CUDA 커널로 처리한 뒤 회전 상자 겹침과 중심점 거리로 추적한다. 이후 여러 집계선의 결과를 종합해 마릿수를 확정하는 경로와, 화소를 센티미터로 환산한 입력으로 Transformer 계열 모델이 체중을 예측하는 경로로 나뉜다. 돼지일 수 없는 추정 체중의 검출은 집계에서 제외한다.">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/5-throughput-labeling-dark.svg">
-  <img src="assets/5-throughput-labeling-light.svg" width="100%" alt="5. EdgeFarm Count 처리 속도, Orin Nano 4GB. 일반 출하 시 30–60 fps, 자돈 60–70마리 동시 통과 시 10 fps. 영상 입력부터 오버레이 출력까지 기준이며 지연이 누적되지 않는다. 6. 자동 라벨링 루프. 이미지 추출, SAM 3 라벨, 프레임 선별, YOLO 학습, 실제 카운팅 정확도로 교체 판단. 카운팅 오류 구간은 클립으로 저장해 하루 약 1만 장 규모로 다시 라벨링한다.">
+  <img src="assets/5-throughput-labeling-light.svg" width="100%" alt="5. EdgeFarm Count 처리 속도, Orin Nano 4GB: 일반 출하 시 30–60 fps, 자돈 60–70마리 동시 통과 시 10 fps, 영상 입력부터 오버레이 출력까지 지연 누적 없음. 6. 자동 라벨링 루프: 이미지 추출, SAM 3 라벨, 프레임 선별, YOLO 학습, 실제 카운팅 정확도로 교체 판단. 카운팅 오류 구간은 클립으로 저장해 하루 약 1만 장 규모로 다시 라벨링한다.">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/7-base-also-dark.svg">
-  <img src="assets/7-base-also-light.svg" width="100%" alt="7. 제품 공통 엣지 기반: 각 Jetson에서 TensorRT 엔진을 빌드하는 라이브러리, 대기열이 차기 전에 입력 프레임을 조절해 프레임 일괄 유실과 추적 단절에 대응, 우리 데이터의 mAP와 카운팅 정확도로 모델 교체 판단. 8. 그 밖의 제품: EdgeFarm Grow는 활동량과 증체량의 상관계수 -0.84, Facepection은 열화상 온도 보정으로 오차 0.3도 이내.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/7-others-dark.svg">
+  <img src="assets/7-others-light.svg" width="100%" alt="7. 그 밖의 작업. engine build: 장비마다 TensorRT 엔진을 직접 빌드. frame control: 대기열이 차기 전에 입력 프레임 조절. EdgeFarm Grow: 활동량과 증체량의 상관계수 -0.84. Facepection: 열화상 온도 보정, 오차 0.3 °C 이내.">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/9-personal-dark.svg">
-  <img src="assets/9-personal-light.svg" width="100%" alt="9. 개인 프로젝트. boardgame_ai: 보드게임 AI 개발 rollout 기반 전략 탐색  &amp;  범용 LLM 수 선택 VISER: 관심 분야 기술 뉴스 추적 뉴스레터 선별  &amp;  요약  &amp;  개인 선호 반영 Stock_1000: 국내 주식 투자 전략 개발 주도주 선별  &amp;  분할 매수 시점  &amp;  백테스트 X_Idea: X 기술 게시글 아이디어 수집 도구 카드 정리  &amp;  직접 써보기  &amp;  주말 MVP">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/8-personal-dark.svg">
+  <img src="assets/8-personal-light.svg" width="100%" alt="8. 개인 프로젝트. boardgame_ai: 보드게임 AI 개발 rollout 기반 전략 탐색  &amp;  범용 LLM 수 선택. VISER: 관심 분야 기술 뉴스 추적 뉴스레터 선별  &amp;  요약  &amp;  개인 선호 반영. Stock_1000: 국내 주식 투자 전략 개발 주도주 선별  &amp;  분할 매수 시점  &amp;  백테스트. X_Idea: X 기술 게시글 아이디어 수집 도구 카드 정리  &amp;  직접 써보기  &amp;  주말 MVP.">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/10-stack-dark.svg">
-  <img src="assets/10-stack-light.svg" width="100%" alt="기술 스택: C++, Python, CUDA, TensorRT, DeepStream, NVIDIA VPI, OpenMP, PyTorch, YOLO, SAM 3, Docker, MQTT, WebSocket, Jetson Nano 2GB부터 Orin. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/9-stack-dark.svg">
+  <img src="assets/9-stack-light.svg" width="100%" alt="기술 스택: C++, Python, CUDA, TensorRT, DeepStream, NVIDIA VPI, OpenMP, PyTorch, YOLO, SAM 3, Docker, MQTT, WebSocket, Jetson Nano 2GB부터 Orin. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
 </picture>
 
 <details>

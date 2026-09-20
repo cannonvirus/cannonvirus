@@ -7,8 +7,7 @@
 </style>
 <rect x="8" y="8" width="870" height="362" rx="9" fill="#1f2328"/><rect x="2" y="2" width="870" height="362" rx="9" fill="#ffffff" stroke="#1f2328" stroke-width="1.6"/>
 <text x="26.0" y="40.0" class="sans" fill="#0a5ea8" font-size="16" font-weight="800">4</text>
-<text x="44.0" y="40.0" class="sans" fill="#1f2328" font-size="15" font-weight="800" letter-spacing=".2">EDGEFARM COUNT:  one camera, two answers</text>
-<text x="848.0" y="40.0" class="sans" fill="#57606a" font-size="12.5" text-anchor="end" font-style="italic">2021 – 2025, in commercial use on farms</text>
+<text x="44.0" y="40.0" class="sans" fill="#1f2328" font-size="15" font-weight="800" letter-spacing=".2">EDGEFARM COUNT</text>
 <rect x="26.0" y="68" width="172" height="58" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
 <rect x="26.0" y="68" width="172" height="58" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h7" style="animation-delay:0.00s"/>
 <text x="112.0" y="93.0" class="mono" fill="#1f2328" font-size="12" text-anchor="middle" font-weight="700">CAMERA</text>
