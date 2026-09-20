@@ -34,7 +34,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/9-personal-dark.svg">
-  <img src="assets/9-personal-light.svg" width="100%" alt="9. 개인 프로젝트. boardgame_ai는 보드게임 일곱 종의 로컬 AI 대국, VISER는 기술 뉴스를 수집하고 요약하는 개인비서, Stock_1000은 눌림 전략의 백테스트와 모의 운영, X_Idea는 저장한 아이디어를 주말 MVP로 만들어 보는 작업 폴더.">
+  <img src="assets/9-personal-light.svg" width="100%" alt="9. 개인 프로젝트. 네 가지 모두 문제, 구현, 현재 순서로 적었다. boardgame_ai: 전략의 우열을 기록으로 정하려고, 엔진이 규칙과 점수를 맡고 기준 전략은 paired rollout으로 수를 고르게 만들었다. 유료 API를 쓰지 않으며 후보끼리 5판씩 랭킹전을 붙여 챔피언을 교체한다. VISER: 읽은 기술 뉴스가 남지 않아, 뉴스레터를 모아 일일 브리핑과 주간 보고서를 만들고 피드백과 실패 기록을 SQLite에 보존한다. 사람이 보고서 본문을 고치지 않는다. Stock_1000: 눌림 전략을 감으로 판단하고 있어, 주도주를 점수로 고르고 이동평균 기준으로 분할 매수하며 스케줄러가 장중과 장마감에 돌린다. 실거래가 아닌 모의 운영과 백테스트다. X_Idea: 저장만 하고 써보지 않은 도구가 쌓여, 원문을 카드로 쪼개 직접 써본 뒤 기록하고 쓸 만한 것은 주말 MVP로 만든다.">
 </picture>
 
 <picture>
