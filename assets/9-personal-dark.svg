@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 152" width="880" height="152" role="img" aria-label="9. 개인 프로젝트. boardgame_ai는 보드게임 일곱 종의 로컬 AI 대국, VISER는 기술 뉴스를 수집하고 요약하는 개인비서, Stock_1000은 눌림 전략의 백테스트와 모의 운영, X_Idea는 저장한 아이디어를 주말 MVP로 만들어 보는 작업 폴더.">
+<title>9. 개인 프로젝트. boardgame_ai는 보드게임 일곱 종의 로컬 AI 대국, VISER는 기술 뉴스를 수집하고 요약하는 개인비서, Stock_1000은 눌림 전략의 백테스트와 모의 운영, X_Idea는 저장한 아이디어를 주말 MVP로 만들어 보는 작업 폴더.</title>
+<style>
+  .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace} .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}
+  @keyframes k4{0%{opacity:1}25.000%{opacity:0}100%{opacity:0}}.h4{opacity:0;animation:k4 6.40s steps(1) infinite}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.15}} .blink{animation:blink 1.2s steps(1) infinite}
+</style>
+<rect x="8" y="8" width="870" height="142" rx="9" fill="#010409"/><rect x="2" y="2" width="870" height="142" rx="9" fill="#161b22" stroke="#8b949e" stroke-width="1.6"/>
+<text x="26.0" y="40.0" class="sans" fill="#8fd400" font-size="16" font-weight="800">9</text>
+<text x="44.0" y="40.0" class="sans" fill="#e6edf3" font-size="15" font-weight="800" letter-spacing=".2">PERSONAL PROJECTS</text>
+<text x="848.0" y="40.0" class="sans" fill="#9da7b3" font-size="12.5" text-anchor="end" font-style="italic">built for my own use</text>
+<rect x="26.0" y="58" width="195.0" height="68" rx="7" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+<rect x="26.0" y="58" width="195.0" height="68" rx="7" fill="#2c400d" stroke="#8fd400" stroke-width="1.8" class="h4" style="animation-delay:0.00s"/>
+<rect x="38.0" y="68" width="105.6" height="20" rx="10" fill="#2c400d" stroke="#8fd400" stroke-width="1.2"/>
+<text x="48.0" y="82.0" class="mono" fill="#e6edf3" font-size="11.5" font-weight="700">boardgame_ai</text>
+<text x="38.0" y="110.0" class="sans" fill="#e6edf3" font-size="12.5" font-weight="700">보드게임 7종 로컬 AI 대국</text>
+<rect x="235.0" y="58" width="195.0" height="68" rx="7" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+<rect x="235.0" y="58" width="195.0" height="68" rx="7" fill="#2c400d" stroke="#8fd400" stroke-width="1.8" class="h4" style="animation-delay:1.60s"/>
+<rect x="247.0" y="68" width="55.6" height="20" rx="10" fill="#2c400d" stroke="#8fd400" stroke-width="1.2"/>
+<text x="257.0" y="82.0" class="mono" fill="#e6edf3" font-size="11.5" font-weight="700">VISER</text>
+<text x="247.0" y="110.0" class="sans" fill="#e6edf3" font-size="12.5" font-weight="700">기술 뉴스 수집·요약 비서</text>
+<rect x="444.0" y="58" width="195.0" height="68" rx="7" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+<rect x="444.0" y="58" width="195.0" height="68" rx="7" fill="#2c400d" stroke="#8fd400" stroke-width="1.8" class="h4" style="animation-delay:3.20s"/>
+<rect x="456.0" y="68" width="91.3" height="20" rx="10" fill="#2c400d" stroke="#8fd400" stroke-width="1.2"/>
+<text x="466.0" y="82.0" class="mono" fill="#e6edf3" font-size="11.5" font-weight="700">Stock_1000</text>
+<text x="456.0" y="110.0" class="sans" fill="#e6edf3" font-size="12.5" font-weight="700">눌림 전략 백테스트·운영</text>
+<rect x="653.0" y="58" width="195.0" height="68" rx="7" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+<rect x="653.0" y="58" width="195.0" height="68" rx="7" fill="#2c400d" stroke="#8fd400" stroke-width="1.8" class="h4" style="animation-delay:4.80s"/>
+<rect x="665.0" y="68" width="62.8" height="20" rx="10" fill="#2c400d" stroke="#8fd400" stroke-width="1.2"/>
+<text x="675.0" y="82.0" class="mono" fill="#e6edf3" font-size="11.5" font-weight="700">X_Idea</text>
+<text x="665.0" y="110.0" class="sans" fill="#e6edf3" font-size="12.5" font-weight="700">아이디어를 주말 MVP로</text>
+</svg>

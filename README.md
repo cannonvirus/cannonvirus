@@ -29,12 +29,17 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/7-base-also-dark.svg">
-  <img src="assets/7-base-also-light.svg" width="100%" alt="7. 제품 공통 엣지 기반. 각 Jetson에서 TensorRT 엔진을 빌드하는 라이브러리와 Docker 환경 분리, 대기열이 차기 전에 입력 프레임을 조절해 프레임 일괄 유실과 추적 단절에 대응, 우리 데이터의 mAP와 카운팅 정확도로 모델 교체 판단. 8. 그 밖의 경험. EdgeFarm Grow, 활동량과 증체량의 상관계수 -0.84. Facepection, 열화상 온도 보정, 오차 0.3도 이내. VISER, 뉴스레터 기반 기술 탐색 개인비서, 개발 중.">
+  <img src="assets/7-base-also-light.svg" width="100%" alt="7. 제품 공통 엣지 기반: 각 Jetson에서 TensorRT 엔진을 빌드하는 라이브러리, 대기열이 차기 전에 입력 프레임을 조절해 프레임 일괄 유실과 추적 단절에 대응, 우리 데이터의 mAP와 카운팅 정확도로 모델 교체 판단. 8. 그 밖의 제품: EdgeFarm Grow는 활동량과 증체량의 상관계수 -0.84, Facepection은 열화상 온도 보정으로 오차 0.3도 이내.">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/9-stack-dark.svg">
-  <img src="assets/9-stack-light.svg" width="100%" alt="기술 스택. C++, Python, CUDA, TensorRT, DeepStream, NVIDIA VPI, OpenMP, PyTorch, YOLO, SAM 3, Docker, MQTT, WebSocket, Jetson Nano 2GB부터 Orin. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/9-personal-dark.svg">
+  <img src="assets/9-personal-light.svg" width="100%" alt="9. 개인 프로젝트. boardgame_ai는 보드게임 일곱 종의 로컬 AI 대국, VISER는 기술 뉴스를 수집하고 요약하는 개인비서, Stock_1000은 눌림 전략의 백테스트와 모의 운영, X_Idea는 저장한 아이디어를 주말 MVP로 만들어 보는 작업 폴더.">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/10-stack-dark.svg">
+  <img src="assets/10-stack-light.svg" width="100%" alt="기술 스택: C++, Python, CUDA, TensorRT, DeepStream, NVIDIA VPI, OpenMP, PyTorch, YOLO, SAM 3, Docker, MQTT, WebSocket, Jetson Nano 2GB부터 Orin. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
 </picture>
 
 <details>
@@ -73,9 +78,12 @@
 
 - 온도 측정을 전담해 일반 카메라와 열화상 카메라의 좌표를 맞췄습니다. 직접 측정한 데이터로 거리와 기온에 따른 온도 보정 알고리즘을 설계했으며, 접촉식 체온계와 대조한 오차는 0.3°C 이내였습니다.
 
-**VISER, 뉴스레터 기반 기술 탐색 개인비서** &nbsp;|&nbsp; 개인 프로젝트, 개발 중 &nbsp;|&nbsp; Python, SQLite, LLM 연동
+**개인 프로젝트** &nbsp;|&nbsp; 직접 쓰려고 만든 것들
 
-- 뉴스레터를 수집해 보고서를 만들고, 등록한 업무 문제에 관련 기사와 근거를 연결하는 개인비서를 개발했습니다. 원문과 처리 실패 기록을 보존해 다시 처리할 수 있도록 했습니다. 기술의 적용 가능성을 검토하고 실험 결과를 다음 탐색에 반영하는 자동화 기능은 설계 중입니다.
+- **boardgame_ai** — 보드게임 일곱 종을 한국어 웹에서 돌리는 로컬 AI입니다. 엔진이 규칙과 점수를 관리하고, 전략은 자기 관측과 합법 행동만으로 수를 고릅니다. 기준 전략은 paired rollout으로 행동을 선택하며, 후보끼리 랭킹전을 붙여 교체를 판단합니다. 유료 API를 쓰지 않습니다.
+- **VISER** — 관심사에 맞는 기술 뉴스를 수집해 요약하고, 읽은 내용과 피드백에서 개선 아이디어를 찾는 개인비서입니다. 원문과 처리 실패 기록을 SQLite에 보존해 다시 처리할 수 있습니다.
+- **Stock_1000** — 한국 주식 주도주를 대상으로 눌림 전략을 모의 운영하고 백테스트합니다. 스케줄러가 장중과 장마감 작업을 돌리고, FastAPI 대시보드에서 확인합니다.
+- **X_Idea** — 저장한 도구와 아이디어를 카드로 정리하고, 마음에 드는 것은 주말 MVP로 만들어 결과를 다시 카드에 반영합니다.
 
 **특허 및 대외 활동**
 
