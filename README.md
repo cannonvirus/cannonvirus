@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/0-hero-dark.svg">
-  <img src="assets/0-hero-light.svg" width="100%" alt="주소현 Sohyun Ju, Vision AI 엔지니어. 데이터를 더 모으는 대신 원인을 찾는다. 모델 크기가 아니라 손실함수: 개체 체중 라벨이 없는 조건에서 약지도 Custom Loss를 직접 설계해 평균 체중 정확도 98.2%. 데이터 양이 아니라 원인 분석: 분포와 어긋난 활성화함수를 Scaled Sigmoid로 재설계해 자돈 구간 오차 0.2kg 개선. 모델에서 끝내지 않는다: C++, CUDA, TensorRT로 올려 현장 운영까지 직접 담당, 100여 현장 상용 배포. 엣지 추론 최적화, 5년 7개월 상용 개발.">
+  <img src="assets/0-hero-light.svg" width="100%" alt="주소현 Sohyun Ju, Vision AI 엔지니어. 라벨이 없는 데이터에서 학습 신호를 설계한다. 영상에서 feature 설계: 회전 상자와 키포인트, 세그멘테이션에서 몸길이, 어깨너비, 몸통 등고선을 계산하고 상관 분석과 분산팽창계수로 입력 변수를 선별했다. 라벨 대신 도메인 사실로: 면적과 체중의 상관 0.8, 도축 체중의 표준편차 5~15%를 학습 신호로 삼아 ListNet과 VarMax 손실을 직접 설계했다. 현장 정답과 대조: 출하성적서의 실제 마릿수와 총중량을 정답으로 두고 산출해 출하 단위 평균 체중 정확도 98.2%. 약지도 학습, 엣지 배포, 5년 7개월 상용 개발.">
 </picture>
 
 <a href="mailto:cannonvirus@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-mail-dark.svg"><img src="assets/link-mail-light.svg" height="46" alt="이메일 cannonvirus@gmail.com"></picture></a>
