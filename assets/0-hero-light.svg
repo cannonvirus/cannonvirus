@@ -1,33 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 344" width="880" height="344" role="img" aria-label="주소현 Sohyun Ju, Vision AI 엔지니어. 정답이 부족한 데이터에서 학습 신호를 설계한다. 영상에서 feature 설계: 회전 상자와 키포인트, 세그멘테이션에서 몸길이, 어깨너비, 몸통 등고선을 계산하고 상관 분석과 분산팽창계수로 입력 변수를 선별했다. 라벨 대신 도메인 사실로: 면적과 체중의 상관 0.8, 도축 체중의 표준편차 5~15%를 학습 신호로 삼아 ListNet과 VarMax 손실을 직접 설계했다. 현장 정답과 대조: 출하성적서의 실제 마릿수와 총중량을 정답으로 두고 산출해 출하 단위 평균 체중 정확도 98.2%. 약지도 학습, 엣지 배포, 5년 7개월 상용 개발.">
-<title>주소현 Sohyun Ju, Vision AI 엔지니어. 정답이 부족한 데이터에서 학습 신호를 설계한다. 영상에서 feature 설계: 회전 상자와 키포인트, 세그멘테이션에서 몸길이, 어깨너비, 몸통 등고선을 계산하고 상관 분석과 분산팽창계수로 입력 변수를 선별했다. 라벨 대신 도메인 사실로: 면적과 체중의 상관 0.8, 도축 체중의 표준편차 5~15%를 학습 신호로 삼아 ListNet과 VarMax 손실을 직접 설계했다. 현장 정답과 대조: 출하성적서의 실제 마릿수와 총중량을 정답으로 두고 산출해 출하 단위 평균 체중 정확도 98.2%. 약지도 학습, 엣지 배포, 5년 7개월 상용 개발.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 216" width="880" height="216" role="img" aria-label="주소현 Sohyun Ju, Vision AI 엔지니어. ANALYZE. TREND. OPTIMIZE. 원인을 먼저 찾고, 새 기술 빠르게 검증하고, 장비 한계까지 깎습니다">
+<title>주소현 Sohyun Ju, Vision AI 엔지니어. ANALYZE. TREND. OPTIMIZE. 원인을 먼저 찾고, 새 기술 빠르게 검증하고, 장비 한계까지 깎습니다</title>
 <style>
   .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace} .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}
   
   @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.15}} .blink{animation:blink 1.2s steps(1) infinite}
 </style>
-<rect x="8" y="8" width="870" height="334" rx="9" fill="#1f2328"/><rect x="2" y="2" width="870" height="334" rx="9" fill="#0d1117" stroke="#1f2328" stroke-width="1.6"/>
-<text x="30.0" y="42.0" class="mono" fill="#7d8590" font-size="11.5" letter-spacing="1.4">VISION AI   /   WEAK SUPERVISION   /   EDGE DEPLOYMENT   /   5 YR 7 MO IN PRODUCTION</text>
+<rect x="8" y="8" width="870" height="206" rx="9" fill="#1f2328"/><rect x="2" y="2" width="870" height="206" rx="9" fill="#0d1117" stroke="#1f2328" stroke-width="1.6"/>
+<text x="30.0" y="42.0" class="mono" fill="#7d8590" font-size="11.5" letter-spacing="1.4">VISION AI   /   EDGE DEPLOYMENT</text>
 <text x="844.0" y="43.0" class="sans" fill="#f0f6fc" font-size="16" text-anchor="end" font-weight="700">주소현   SOHYUN JU</text>
-<text x="28.0" y="102.0" class="sans" fill="#f0f6fc" font-size="38" font-weight="800" letter-spacing="-.8">정답이 부족한 데이터에서</text>
-<text x="28" y="150" class="sans" font-size="38" font-weight="800" letter-spacing="-.8"><tspan fill="#8fd400">학습 신호</tspan><tspan fill="#f0f6fc">를 설계합니다</tspan></text>
-<text x="30.0" y="184.0" class="sans" fill="#9da7b3" font-size="15" font-style="italic">models trained, compiled for Jetson in C++ and CUDA, then measured in the field</text>
-<line x1="30" y1="208" x2="844" y2="208" stroke="#30363d"/>
-<rect x="30" y="230" width="3" height="16" rx="1.5" fill="#8fd400"/>
-<text x="42.0" y="243.0" class="sans" fill="#f0f6fc" font-size="14.5" font-weight="700">영상에서 feature 설계</text>
-<text x="30.0" y="273.0" class="sans" fill="#9da7b3" font-size="12">회전 상자와 키포인트, 세그멘테이션에서</text>
-<text x="30.0" y="292.0" class="sans" fill="#9da7b3" font-size="12">몸길이·어깨너비·몸통 등고선을 계산</text>
-<text x="30.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">→</text>
-<text x="48.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">상관 분석과 VIF로 선별</text>
-<rect x="310" y="230" width="3" height="16" rx="1.5" fill="#8fd400"/>
-<text x="322.0" y="243.0" class="sans" fill="#f0f6fc" font-size="14.5" font-weight="700">라벨 대신 도메인 사실로</text>
-<text x="310.0" y="273.0" class="sans" fill="#9da7b3" font-size="12">면적과 체중의 상관 0.8, 도축 체중의</text>
-<text x="310.0" y="292.0" class="sans" fill="#9da7b3" font-size="12">표준편차 5~15%를 학습 신호로</text>
-<text x="310.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">→</text>
-<text x="328.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">ListNet + VarMax 손실 설계</text>
-<rect x="590" y="230" width="3" height="16" rx="1.5" fill="#8fd400"/>
-<text x="602.0" y="243.0" class="sans" fill="#f0f6fc" font-size="14.5" font-weight="700">현장 정답과 대조</text>
-<text x="590.0" y="273.0" class="sans" fill="#9da7b3" font-size="12">출하성적서의 실제 마릿수와 총중량을</text>
-<text x="590.0" y="292.0" class="sans" fill="#9da7b3" font-size="12">정답으로 두고 산출</text>
-<text x="590.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">→</text>
-<text x="608.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">출하 단위 평균 체중 98.2%</text>
+<text x="28" y="102" class="sans" font-size="44" font-weight="800" letter-spacing="-.8"><tspan fill="#f0f6fc">ANALYZE. TREND.</tspan></text>
+<text x="28" y="150" class="sans" font-size="44" font-weight="800" letter-spacing="-.8"><tspan fill="#8fd400">OPTIMIZE</tspan><tspan fill="#f0f6fc">.</tspan></text>
+<text x="30.0" y="184.0" class="sans" fill="#9da7b3" font-size="15" font-style="italic">원인을 먼저 찾고, 새 기술 빠르게 검증하고, 장비 한계까지 깎습니다</text>
 </svg>
