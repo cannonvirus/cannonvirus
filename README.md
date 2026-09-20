@@ -34,7 +34,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/9-personal-dark.svg">
-  <img src="assets/9-personal-light.svg" width="100%" alt="9. 개인 프로젝트. boardgame_ai: 보드게임 일곱 종을 한국어 웹에서 두는 로컬 AI. 유료 API 없이 탐색으로 수를 고르고, 후보끼리 랭킹전을 붙인다. VISER: 관심 분야의 기술 뉴스를 모아 일일·주간 보고서로 만드는 개인비서. 사람이 본문을 고치지 않고, 피드백과 실패 기록은 SQLite에 남는다. Stock_1000: 한국 주식 눌림 전략을 모의 운영하고 백테스트하는 시스템. 스케줄러가 장중과 장마감에 돌리고, 웹 대시보드로 확인한다. X_Idea: 저장한 도구와 아이디어를 카드로 정리하는 작업 폴더. 직접 써본 결과를 남기고, 쓸 만한 것은 주말 MVP로 만든다.">
+  <img src="assets/9-personal-light.svg" width="100%" alt="9. 개인 프로젝트. boardgame_ai: 보드게임 AI 개발 rollout 기반 전략 탐색  &amp;  범용 LLM 수 선택 VISER: 관심 분야 기술 뉴스 추적 뉴스레터 선별  &amp;  요약  &amp;  개인 선호 반영 Stock_1000: 국내 주식 투자 전략 개발 주도주 선별  &amp;  분할 매수 시점  &amp;  백테스트 X_Idea: X 기술 게시글 아이디어 수집 도구 카드 정리  &amp;  직접 써보기  &amp;  주말 MVP">
 </picture>
 
 <picture>
