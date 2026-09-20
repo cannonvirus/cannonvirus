@@ -1,31 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 234" width="880" height="234" role="img" aria-label="7. 그 밖의 작업. engine build: 장비마다 TensorRT 엔진을 직접 빌드. frame control: 대기열이 차기 전에 입력 프레임 조절. EdgeFarm Grow: 활동량과 증체량의 상관계수 -0.84. Facepection: 열화상 온도 보정, 오차 0.3 °C 이내.">
-<title>7. 그 밖의 작업. engine build: 장비마다 TensorRT 엔진을 직접 빌드. frame control: 대기열이 차기 전에 입력 프레임 조절. EdgeFarm Grow: 활동량과 증체량의 상관계수 -0.84. Facepection: 열화상 온도 보정, 오차 0.3 °C 이내.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 258" width="880" height="258" role="img" aria-label="7. 그 밖의 작업. TRT builder: 엔진 변환 라이브러리 개발 장비별 직접 빌드  &amp;  키포인트·세그 출력  &amp;  버전 대응. frame control: 프레임 유입 제어 대기열 감시  &amp;  입력 프레임 조절  &amp;  추적 단절 방지. EdgeFarm Grow: 돈방 성장 지표 분석 활동량·증체량 상관 -0.84  &amp;  체중 IQR 기울기  &amp;  원격 리포트. Facepection: 열화상 체온 측정 RGB·열화상 정합  &amp;  거리·기온 보정  &amp;  오차 0.3 °C.">
+<title>7. 그 밖의 작업. TRT builder: 엔진 변환 라이브러리 개발 장비별 직접 빌드  &amp;  키포인트·세그 출력  &amp;  버전 대응. frame control: 프레임 유입 제어 대기열 감시  &amp;  입력 프레임 조절  &amp;  추적 단절 방지. EdgeFarm Grow: 돈방 성장 지표 분석 활동량·증체량 상관 -0.84  &amp;  체중 IQR 기울기  &amp;  원격 리포트. Facepection: 열화상 체온 측정 RGB·열화상 정합  &amp;  거리·기온 보정  &amp;  오차 0.3 °C.</title>
 <style>
   .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace} .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}
   @keyframes k4{0%{opacity:1}25.000%{opacity:0}100%{opacity:0}}.h4{opacity:0;animation:k4 6.40s steps(1) infinite}
   @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.15}} .blink{animation:blink 1.2s steps(1) infinite}
 </style>
-<rect x="8" y="8" width="870" height="224" rx="9" fill="#1f2328"/><rect x="2" y="2" width="870" height="224" rx="9" fill="#ffffff" stroke="#1f2328" stroke-width="1.6"/>
+<rect x="8" y="8" width="870" height="248" rx="9" fill="#1f2328"/><rect x="2" y="2" width="870" height="248" rx="9" fill="#ffffff" stroke="#1f2328" stroke-width="1.6"/>
 <text x="26.0" y="40.0" class="sans" fill="#4c7d00" font-size="16" font-weight="800">7</text>
 <text x="44.0" y="40.0" class="sans" fill="#1f2328" font-size="15" font-weight="800" letter-spacing=".2">OTHERS</text>
-<rect x="26.0" y="58" width="404.0" height="68" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
-<rect x="26.0" y="58" width="404.0" height="68" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h4" style="animation-delay:0.00s"/>
-<rect x="38.0" y="68" width="105.6" height="20" rx="10" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.2"/>
-<text x="48.0" y="82.0" class="mono" fill="#1f2328" font-size="11.5" font-weight="700">engine build</text>
-<text x="38.0" y="108.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="700">장비마다 TensorRT 엔진을 직접 빌드</text>
-<rect x="444.0" y="58" width="404.0" height="68" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
-<rect x="444.0" y="58" width="404.0" height="68" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h4" style="animation-delay:1.60s"/>
+<rect x="26.0" y="58" width="404.0" height="80" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="26.0" y="58" width="404.0" height="80" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h4" style="animation-delay:0.00s"/>
+<rect x="38.0" y="68" width="98.4" height="20" rx="10" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.2"/>
+<text x="48.0" y="82.0" class="mono" fill="#1f2328" font-size="11.5" font-weight="700">TRT builder</text>
+<text x="38.0" y="108.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="700">엔진 변환 라이브러리 개발</text>
+<text x="38.0" y="128.0" class="sans" fill="#57606a" font-size="12">장비별 직접 빌드  &amp;  키포인트·세그 출력  &amp;  버전 대응</text>
+<rect x="444.0" y="58" width="404.0" height="80" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="444.0" y="58" width="404.0" height="80" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h4" style="animation-delay:1.60s"/>
 <rect x="456.0" y="68" width="112.7" height="20" rx="10" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.2"/>
 <text x="466.0" y="82.0" class="mono" fill="#1f2328" font-size="11.5" font-weight="700">frame control</text>
-<text x="456.0" y="108.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="700">대기열이 차기 전에 입력 프레임 조절</text>
-<rect x="26.0" y="140" width="404.0" height="68" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
-<rect x="26.0" y="140" width="404.0" height="68" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h4" style="animation-delay:3.20s"/>
-<rect x="38.0" y="150" width="112.7" height="20" rx="10" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.2"/>
-<text x="48.0" y="164.0" class="mono" fill="#1f2328" font-size="11.5" font-weight="700">EdgeFarm Grow</text>
-<text x="38.0" y="190.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="700">활동량과 증체량의 상관계수 -0.84</text>
-<rect x="444.0" y="140" width="404.0" height="68" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
-<rect x="444.0" y="140" width="404.0" height="68" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h4" style="animation-delay:4.80s"/>
-<rect x="456.0" y="150" width="98.4" height="20" rx="10" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.2"/>
-<text x="466.0" y="164.0" class="mono" fill="#1f2328" font-size="11.5" font-weight="700">Facepection</text>
-<text x="456.0" y="190.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="700">열화상 온도 보정, 오차 0.3 °C 이내</text>
+<text x="456.0" y="108.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="700">프레임 유입 제어</text>
+<text x="456.0" y="128.0" class="sans" fill="#57606a" font-size="12">대기열 감시  &amp;  입력 프레임 조절  &amp;  추적 단절 방지</text>
+<rect x="26.0" y="152" width="404.0" height="80" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="26.0" y="152" width="404.0" height="80" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h4" style="animation-delay:3.20s"/>
+<rect x="38.0" y="162" width="112.7" height="20" rx="10" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.2"/>
+<text x="48.0" y="176.0" class="mono" fill="#1f2328" font-size="11.5" font-weight="700">EdgeFarm Grow</text>
+<text x="38.0" y="202.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="700">돈방 성장 지표 분석</text>
+<text x="38.0" y="222.0" class="sans" fill="#57606a" font-size="12">활동량·증체량 상관 -0.84  &amp;  체중 IQR 기울기  &amp;  원격 리포트</text>
+<rect x="444.0" y="152" width="404.0" height="80" rx="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="444.0" y="152" width="404.0" height="80" rx="7" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.8" class="h4" style="animation-delay:4.80s"/>
+<rect x="456.0" y="162" width="98.4" height="20" rx="10" fill="#dff0b3" stroke="#4c7d00" stroke-width="1.2"/>
+<text x="466.0" y="176.0" class="mono" fill="#1f2328" font-size="11.5" font-weight="700">Facepection</text>
+<text x="456.0" y="202.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="700">열화상 체온 측정</text>
+<text x="456.0" y="222.0" class="sans" fill="#57606a" font-size="12">RGB·열화상 정합  &amp;  거리·기온 보정  &amp;  오차 0.3 °C</text>
 </svg>

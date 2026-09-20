@@ -29,7 +29,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/7-others-dark.svg">
-  <img src="assets/7-others-light.svg" width="100%" alt="7. 그 밖의 작업. engine build: 장비마다 TensorRT 엔진을 직접 빌드. frame control: 대기열이 차기 전에 입력 프레임 조절. EdgeFarm Grow: 활동량과 증체량의 상관계수 -0.84. Facepection: 열화상 온도 보정, 오차 0.3 °C 이내.">
+  <img src="assets/7-others-light.svg" width="100%" alt="7. 그 밖의 작업. TRT builder: 엔진 변환 라이브러리 개발 장비별 직접 빌드  &amp;  키포인트·세그 출력  &amp;  버전 대응. frame control: 프레임 유입 제어 대기열 감시  &amp;  입력 프레임 조절  &amp;  추적 단절 방지. EdgeFarm Grow: 돈방 성장 지표 분석 활동량·증체량 상관 -0.84  &amp;  체중 IQR 기울기  &amp;  원격 리포트. Facepection: 열화상 체온 측정 RGB·열화상 정합  &amp;  거리·기온 보정  &amp;  오차 0.3 °C.">
 </picture>
 
 <picture>
