@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 212" width="880" height="212" role="img" aria-label="Sohyun Ju (주소현), Vision AI engineer, edge inference optimization. 5 years 7 months in production. 7 registered patents as co-inventor, 1st place in the 2021 tracking contest as a team, AI Grand Challenge final 20.">
+<title>Sohyun Ju (주소현), Vision AI engineer, edge inference optimization. 5 years 7 months in production. 7 registered patents as co-inventor, 1st place in the 2021 tracking contest as a team, AI Grand Challenge final 20.</title>
+<style>
+  .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace} .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}
+  
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.15}} .blink{animation:blink 1.2s steps(1) infinite}
+</style>
+<rect x="8" y="8" width="870" height="202" rx="9" fill="#010409"/><rect x="2" y="2" width="870" height="202" rx="9" fill="#0d1117" stroke="#30363d" stroke-width="1.6"/>
+<text x="30.0" y="44.0" class="mono" fill="#7d8590" font-size="11.5" letter-spacing="1.4">VISION AI   /   EDGE INFERENCE OPTIMIZATION   /   5 YR 7 MO IN PRODUCTION</text>
+<text x="844.0" y="44.0" class="sans" fill="#9da7b3" font-size="15" text-anchor="end" font-weight="600">주소현</text>
+<text x="28" y="108" class="sans" font-size="54" font-weight="800" letter-spacing="-1.5"><tspan fill="#f0f6fc">SOHYUN JU</tspan><tspan fill="#7d8590" dx="16">/ VISION AI</tspan></text>
+<text x="30.0" y="144.0" class="sans" fill="#9da7b3" font-size="16" font-style="italic">models trained, compiled for Jetson in C++ and CUDA, then measured in the field</text>
+<line x1="30" y1="164" x2="844" y2="164" stroke="#30363d"/>
+<text x="30.0" y="189.0" class="mono" fill="#8fd400" font-size="15" font-weight="700">7</text>
+<text x="49.3" y="189.0" class="mono" fill="#9da7b3" font-size="12">registered patents, co-inventor</text>
+<text x="313.9" y="189.0" class="mono" fill="#8fd400" font-size="15" font-weight="700">1st</text>
+<text x="351.8" y="189.0" class="mono" fill="#9da7b3" font-size="12">2021 tracking contest, team</text>
+<text x="586.7" y="189.0" class="mono" fill="#8fd400" font-size="15" font-weight="700">Top 20</text>
+<text x="652.5" y="189.0" class="mono" fill="#9da7b3" font-size="12">AI Grand Challenge finals</text>
+</svg>

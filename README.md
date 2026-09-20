@@ -1,163 +1,91 @@
-# Hi there, I'm Sohyun Ju <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/0-hero-dark.svg">
+  <img src="assets/0-hero-light.svg" width="100%" alt="주소현 (Sohyun Ju), Vision AI 개발자, 엣지 추론 최적화. 5년 7개월간 상용 영상 인식 시스템 개발. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
+</picture>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=27&duration=3000&pause=1000&color=76B900&center=true&vCenter=true&width=700&lines=Pushing+AI+Beyond+Hardware+Limits+🚀;Robust+Logic+from+Statistical+Insights+📊;Optimization+Down+to+the+Microsecond+⏱️" alt="Typing SVG" />
-</div>
+5년 7개월간 영상 인식 모델과 엣지 실시간 처리 시스템을 개발했습니다. 모델 학습부터 C++ 영상 처리와 현장 적용까지 담당했고, 실증 결과와 고객 피드백을 바탕으로 모델을 개선했습니다.
 
-<div align="center">
-  <h3>⚡ "Maximum Intelligence, Minimum Resources"</h3>
-  <p><i>"Simplicity is the ultimate sophistication (단순함은 궁극의 정교함이다)" - Leonardo da Vinci</i></p>
-</div>
+[cannonvirus@gmail.com](mailto:cannonvirus@gmail.com) &nbsp;|&nbsp; [Velog](https://velog.io/@juju2123/posts) &nbsp;|&nbsp; 인트플로우 AI 개발팀 선임연구원, 2020.06 – 2026.01
 
-<div align="center">
-  <h2>🌟 Senior Edge AI Engineer | System Architect | Optimization Expert 🌟</h2>
-  <h3>🚀 Embedded AI Solutions | ⚡ High-Performance Computing | 👁️ Real-time Vision Analytics</h3>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/1-peoplecount-pipeline-dark.svg">
+  <img src="assets/1-peoplecount-pipeline-light.svg" width="100%" alt="1. People Count 파이프라인. RTSP 카메라 5대의 입력을 채널별로 감시하고, DeepStream C++ 파이프라인에서 디코드한 뒤 직접 구현한 VPI 블러 플러그인으로 전체 프레임을 비식별화한다. TensorRT 기반 YOLO로 검출하고, 직접 구현한 추적과 구역 집계 플러그인을 거쳐 MQTT와 WebSocket으로 전송한다. Orin Nano 한 대에서 5채널을 채널당 20 fps로 처리했다. 삼성웰스토리 오픈 이노베이션 6기 과제, 2025.06 – 2025.12.">
+</picture>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=2E97F7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Senior+Edge+AI+Engineer+%7C+System+Architect;Optimizing+AI+for+NVIDIA+Jetson+%26+Embedded;Real-time+Vision+%7C+TensorRT+%7C+DeepStream;6%2B+Years+of+Building+Robust+AI+Systems" alt="Typing SVG" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/2-measured-reconnect-dark.svg">
+  <img src="assets/2-measured-reconnect-light.svg" width="100%" alt="2. 정답 기록과 대조해 측정한 수치. 돼지 카운팅 정확도 99.8%, 출하성적서의 실제 마릿수 기준. 평균 체중 정확도 98.2%, 출하 단위 평균 체중 기준. 개체 체중 평균 오차 5%, 40두 대상 국가 주관 실험에서 인증 통과. 피플 카운팅 정확도 96.4%, 3개월 점심 인원을 식수 태깅기 로그와 대조. 혼잡도 3단계 판정 94.6%, 팀원이 현장 사진에 붙인 라벨과 대조. 열화상 온도 오차 0.3도 이내, 접촉식 체온계와 대조. 3. 채널별 독립 재연결. RTSP 입력마다 프레임 유입을 감시해 끊긴 채널만 다시 연결하고, 나머지 네 채널의 집계는 유지한다.">
+</picture>
 
-<div align="center">
-  <a href="https://github.com/cannonvirus"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://velog.io/@juju2123/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white" alt="Velog"></a>
-  <a href="mailto:cannonvirus@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/4-count-architecture-dark.svg">
+  <img src="assets/4-count-architecture-light.svg" width="100%" alt="4. EdgeFarm Count 아키텍처, 2021 – 2025, 농장 상용 제품에 적용. 카메라 영상에서 검출, 키포인트, 세그멘테이션을 TensorRT로 추론하고 디코드와 NMS를 CUDA 커널로 처리한 뒤 회전 상자 겹침과 중심점 거리로 추적한다. 이후 여러 집계선의 결과를 종합해 마릿수를 확정하는 경로와, 화소를 센티미터로 환산한 입력으로 Transformer 계열 모델이 체중을 예측하는 경로로 나뉜다. 돼지일 수 없는 추정 체중의 검출은 집계에서 제외한다.">
+</picture>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=cannonvirus&color=blue&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/5-throughput-labeling-dark.svg">
+  <img src="assets/5-throughput-labeling-light.svg" width="100%" alt="5. EdgeFarm Count 처리 속도, Orin Nano 4GB. 일반 출하 시 30–60 fps, 자돈 60–70마리 동시 통과 시 10 fps. 영상 입력부터 오버레이 출력까지 기준이며 지연이 누적되지 않는다. 6. 자동 라벨링 루프. 이미지 추출, SAM 3 라벨, 프레임 선별, YOLO 학습, 실제 카운팅 정확도로 교체 판단. 카운팅 오류 구간은 클립으로 저장해 하루 약 1만 장 규모로 다시 라벨링한다.">
+</picture>
 
-## 🚀 About Me
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/7-base-also-dark.svg">
+  <img src="assets/7-base-also-light.svg" width="100%" alt="7. 제품 공통 엣지 기반. 각 Jetson에서 TensorRT 엔진을 빌드하는 라이브러리와 Docker 환경 분리, 대기열이 차기 전에 입력 프레임을 조절해 프레임 일괄 유실과 추적 단절에 대응, 우리 데이터의 mAP와 카운팅 정확도로 모델 교체 판단. 8. 그 밖의 경험. EdgeFarm Grow, 활동량과 증체량의 상관계수 -0.84. Facepection, 열화상 온도 보정, 오차 0.3도 이내. VISER, 뉴스레터 기반 기술 탐색 개인비서, 개발 중.">
+</picture>
 
-<img align="right" alt="Real-time Edge AI Processing" width="400" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmliN2hlNnNhdG9sc2p5bnQ2emVjY2hwdXRmczFsczRzcnM2MmRsaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JqmupuTVZYaQX5s094/giphy.gif">
-
-저는 **6년 이상의 AI/ML 경험**(Since 2020)을 보유한 **AI Engineer**이자, **Smart Livestock(가축)** 도메인의 **실시간 영상 분석 전문가**입니다.
-
-주로 **Edge Device** 환경에서 **객체 탐지(Detection), 추적(Tracking), 카운팅** 및 **혼잡도 측정** 알고리즘을 최적화하여 구현합니다. 특히 데이터 수집부터 **전처리(Filtering)**, 학습, **후처리**까지 이어지는 **AI 개발 전주기(Full-cycle) 자동화** 파이프라인 구축에 깊은 전문성을 가지고 있습니다.
-
-### 🎯 Current Focus
-- 🌱 **Smart Livestock & Crowd AI**: 가축 행동 분석 및 **개체 추적(Tracking)**, **인파 혼잡도(Crowd Density)** 측정 알고리즘 고도화
-- 🚀 **Edge Optimization**: **NVIDIA Jetson** 환경에서의 실시간 추론을 위한 모델 경량화 및 고속화
-- 📱 **End-to-End Pipeline**: 데이터 수집부터 **전처리(Filtering)**, 학습, **후처리**까지 이어지는 자동화 프로세스 구축
-- 🔮 **Personal R&D (GenAI)**: **sLLM** 기반의 **Game Agent** 및 **RAG** 룰 에이전트 개발을 통한 **On-Device AI** 기술 확장
-
-### 🏆 Engineering Excellence & Awards
-
-- 🥇 **2021 추적 영상 인식 대회 1위 (최우수상)**
-  - **과학기술정보통신부** 주최 | 데이터 편향 문제를 해결하는 독자적 증강 알고리즘 개발
-  - 현장의 CCTV 데이터 특성을 분석하여 **객체 추적(Tracking)** 성능을 극대화
-
-- 🥈 **인공지능 그랜드 챌린지 Top 20 (수학 문제 풀이 부문)**
-  - **과학기술정보통신부** 주최 | **후속 연구비 2억 3,750만 원** 확보
-  - 문제 유형을 자동 분류하고 최적의 솔버를 매칭하는 **하이브리드 아키텍처** 설계
-
-- 🎓 **전남대학교 통계학/경제학 학사 (2013-2019)**
-  - GPA: **3.81/4.5**
-  - **Data Science Foundation**: 통계적 추론과 데이터 분석 이론을 AI 모델링에 접목
-
-## 📈 Career Journey
-
-```mermaid
-timeline
-    title Career Milestones & Achievements
-    
-    2013-2019 : 전남대학교 (통계학/경제학)
-               : 데이터 사이언스 기초 확립
-               : GARP 국제 FRM 합격 (Quant 역량)
-               : GPA 3.81 / 4.5
-    
-    2020-2021 : Edge AI 도전 & 수상 (Awards)
-               : 🏆 추적 영상 인식 대회 1위 (장관상)
-               : 🥈 AI 그랜드 챌린지 Top 20
-               : Facepection 상용화 (Jetson Nano 2GB)
-               
-    2022-2024 : Smart Livestock 솔루션 고도화
-               : EdgeFarm Count & Grow 상용 개발
-               : Jetson Nano 4GB → Orin Nano 4GB
-               : 극한의 경량화 및 추론 최적화
-               
-    2025      : Samsung Welstory (WIT 6th)
-               : People Count & Crowd Analysis
-               : 혼잡도 및 대기시간 산출 알고리즘 개발
-               : Jetson Orin Nano 8GB 최적화
-               
-    2026~     : Next Step (Hybrid AI)
-               : On-Device Generative AI 연구
-               : sLLM & RAG Agent 개발 (Personal R&D)
-               : Vision + Language Model 융합 시도
-```
-
-## 🛠️ Technical Expertise
-
-### Core Specializations
-<details>
-<summary><b>⚡ Edge AI & System Architecture</b></summary>
-
-- **Hardware Acceleration**: **NVIDIA Jetson** (Orin Nano/NX, Nano) 임베디드 리눅스 환경 완벽 제어
-- **Inference Optimization**:
-  - **TensorRT** (FP16/INT8 양자화) 기반의 모델 경량화 및 추론 가속
-  - 전/후처리 병목 제거를 위한 **CUDA Kernel** 직접 구현 및 최적화
-  - Python 로직의 **C++ Native Plugin** 포팅을 통한 시스템 고속화
-- **Pipeline Orchestration**:
-  - **DeepStream SDK** & **GStreamer**를 활용한 다채널 실시간 영상 분석
-  - **Zero-Copy** (NVMM) 메모리 제어로 Latency 최소화
-- **Robust Engineering**:
-  - 24/7 무인 운영을 위한 **Self-Healing (Watchdog)** 및 장애 자동 복구 시스템
-  - 네트워크 단절 시 데이터 무결성을 보장하는 **Store & Forward** 아키텍처
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/9-stack-dark.svg">
+  <img src="assets/9-stack-light.svg" width="100%" alt="기술 스택. C++, Python, CUDA, TensorRT, DeepStream, NVIDIA VPI, OpenMP, PyTorch, YOLO, SAM 3, Docker, MQTT, WebSocket, Jetson Nano 2GB부터 Orin. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
+</picture>
 
 <details>
-<summary><b>👁️ Computer Vision & Advanced Analytics</b></summary>
+<summary><b>글로 읽기</b>: 프로젝트별 담당 영역과 결과</summary>
 
-- **Target Domains**:
-  - **Smart Livestock**: 가축 행동 분석, 비접촉 체중 추정, 이상 징후 모니터링
-  - **Crowd Analytics**: 피플 카운팅, **혼잡도(Congestion)** 및 대기시간 산출 알고리즘
-- **Core Algorithms**:
-  - **Multi-Object Tracking (MOT)**: Kalman Filter 튜닝 및 ID Switching 최소화 전략
-  - **Anomaly Detection**: 노이즈가 심한 현장 데이터에서의 실시간 이상 감지
-- **Statistical AI Approach**:
-  - **약지도 학습(Weakly Supervised)**을 통한 데이터 부족 문제 해결
-  - 도메인 지식과 통계적 직관을 결합한 **커스텀 손실 함수(Loss Function)** 설계
-- **Auto-Labeling Ops**: 데이터 수집부터 전처리, 재학습까지 이어지는 **MLOps 파이프라인** 자동화
-</details>
-
-### Tech Stack
-
-#### 🛠️ Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-#### ⚡ Edge AI & Acceleration
-![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![DeepStream](https://img.shields.io/badge/DeepStream_SDK-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-
-#### 👁️ Vision Models & Tracking
-![YOLO Series](https://img.shields.io/badge/YOLO_v3~v11-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
-![RT-DETR](https://img.shields.io/badge/RT--DETR-FF6B6B?style=for-the-badge&logo=pytorch&logoColor=white)
-![D-Fine](https://img.shields.io/badge/D--Fine-FF9900?style=for-the-badge&logo=github&logoColor=white)
-![PP-YOLO](https://img.shields.io/badge/PP--YOLO-00599C?style=for-the-badge&logo=baidu&logoColor=white)
-![SAM](https://img.shields.io/badge/SAM_3-4B8BBE?style=for-the-badge&logo=meta&logoColor=white)
 <br>
-![ByteTrack](https://img.shields.io/badge/ByteTrack-FF4F00?style=for-the-badge&logo=target&logoColor=white)
-![BoT-SORT](https://img.shields.io/badge/BoT--SORT-00C7B7?style=for-the-badge&logo=target&logoColor=white)
-![DeepSORT](https://img.shields.io/badge/DeepSORT-2C3E50?style=for-the-badge&logo=target&logoColor=white)
 
-#### 📡 Backend & Cloud Pipeline
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
-![Slack API](https://img.shields.io/badge/Slack_Bot-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+**People Count, 급식장 대기열 분석** &nbsp;|&nbsp; 2025.06 – 2025.12 &nbsp;|&nbsp; 삼성웰스토리 오픈 이노베이션 6기 과제
 
-#### 🤖 AI Productivity & Tools
-![Cursor](https://img.shields.io/badge/Cursor_IDE-000000?style=for-the-badge&logo=cursor&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google-bard&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+- 영상 입력부터 검출, 추적, 구역별 집계, 비식별화, 통신까지 혼자 설계하고 구현했습니다. 대시보드는 디자이너, 프론트엔드 개발자와 협업했습니다.
+- C++ 기반 DeepStream 파이프라인과 VPI 가속 블러 플러그인을 구현해, 전체 프레임 비식별화를 적용한 5채널 영상을 채널당 20 fps로 처리했습니다.
+- 사람이 가려질 때 축소된 검출 박스를 복원해 추적 ID가 바뀌는 문제에 대응했습니다. 카운팅 정확도는 96.4%로, 3개월간 점심 이용 인원을 식수 태깅기 로그와 대조했습니다.
+- RTSP 입력마다 프레임 유입을 감시해 장애가 난 채널만 분리한 뒤 다시 연결했습니다. 실제 연결이 끊겼을 때도 나머지 채널의 집계는 유지됐습니다.
 
-<div align="center"> <sub>Profile design inspired by <a href="https://github.com/umitkacar">Umit Kacar</a></sub> </div>
+**EdgeFarm Count, 영상 기반 체중 측정과 마릿수 집계** &nbsp;|&nbsp; 2021 – 2025 &nbsp;|&nbsp; 국내외 농장 상용 제품에 적용
+
+- 카메라 높이에 따른 화소와 실측 단위의 환산 기준을 만들고, 상관관계와 공선성을 분석해 입력 변수를 선별했습니다. 같은 개체의 연속 관측값으로 체중을 예측하는 Transformer 계열 모델을 설계했습니다.
+- TensorRT 변환 코드를 작성하고 출력 디코딩과 NMS를 CUDA로 구현했습니다. 면적과 몸통 등고선 계산은 OpenMP로 병렬 처리했습니다.
+- Orin Nano 4GB에서 일반 출하 시 30–60 fps, 자돈 60–70마리 동시 통과 시 10 fps로 처리했습니다. 영상 입력부터 분석 결과를 영상에 표시하기까지 지연이 누적되지 않도록 했습니다.
+- 회전 상자와 중심점 거리로 개체를 추적하고 여러 집계선의 결과를 종합해 카운팅 정확도 99.8%를 확보했습니다. 출하성적서의 실제 마릿수를 기준으로 검증했습니다.
+- 실증 실패 당시의 영상을 개체별 실측 체중과 연결해 보존했습니다. 약 1년 뒤 재촬영 없이 학습에 활용했고, 이후 국가 주관 비접촉 체중계 실험에서 40두의 개체 체중 오차율 평균 5%로 인증을 통과했습니다.
+- 한돈협회 실증에서 이동 방향에 따라 체중이 달라진다는 피드백을 받았습니다. 해당 농장에는 같은 무리가 좌우로 이동할 때 체중 편차가 2% 이내인 모델을 선정해 배포했습니다.
+
+**학습 자동화와 엣지 공통 기능**
+
+- 현장 조건에 맞는 공개 데이터가 없어 영상에서 이미지를 추출하고 SAM 3 라벨링을 거쳐 YOLO를 학습하는 과정을 Python으로 자동화했습니다. 하루 약 1만 장의 라벨을 다시 생성하고 실제 카운팅 정확도로 모델 교체를 판단했습니다.
+- 각 Jetson에서 엔진을 빌드하는 라이브러리를 구현해 장비별 TensorRT 엔진 차이에 대응하고, Docker로 버전별 환경을 분리했습니다. 팀원들도 다른 제품에 이 라이브러리를 사용했습니다.
+- 처리 속도에 맞춰 입력 프레임 수를 조절해 대기열이 가득 차기 전에 부하를 낮췄습니다. 프레임이 한꺼번에 버려져 추적이 끊기는 문제에 대응하도록 People Count와 EdgeFarm Grow에 적용했습니다.
+
+**EdgeFarm Grow, 성장 상태 측정과 현장 데이터 분석**
+
+- 활동량과 식사시간을 측정하는 기능을 개발했습니다. 태국 돈방 4곳의 약 2개월 데이터를 분석해 돈방별 활동량과 증체량의 상관계수 -0.84를 확인했습니다. 체중 사분위 범위가 날짜에 따라 변하는 정도를 성장 격차 지표로 제안해 적용했습니다.
+- 결과를 로컬 로그에 저장한 뒤 10분 간격으로 업로드하고, 네트워크 단절로 전송에 실패한 기록은 다시 보내도록 했습니다. 전송 작업은 별도 스레드에서 실행했습니다.
+
+**Facepection, 열화상 기반 온도 측정**
+
+- 온도 측정을 전담해 일반 카메라와 열화상 카메라의 좌표를 맞췄습니다. 직접 측정한 데이터로 거리와 기온에 따른 온도 보정 알고리즘을 설계했으며, 접촉식 체온계와 대조한 오차는 0.3°C 이내였습니다.
+
+**VISER, 뉴스레터 기반 기술 탐색 개인비서** &nbsp;|&nbsp; 개인 프로젝트, 개발 중 &nbsp;|&nbsp; Python, SQLite, LLM 연동
+
+- 뉴스레터를 수집해 보고서를 만들고, 등록한 업무 문제에 관련 기사와 근거를 연결하는 개인비서를 개발했습니다. 원문과 처리 실패 기록을 보존해 다시 처리할 수 있도록 했습니다. 기술의 적용 가능성을 검토하고 실험 결과를 다음 탐색에 반영하는 자동화 기능은 설계 중입니다.
+
+**특허 및 대외 활동**
+
+- 등록 특허 7건에 공동 발명자로 참여했습니다. 담당한 기술 영역에서 아이디어를 제안하고 명세서 초안을 작성했습니다.
+- 2021 추적 영상 인식 알고리즘 개발 경진대회에서 팀 1위를 기록했습니다. 검출 모델 학습과 데이터 증강, 후처리를 담당했습니다. 주최: 과학기술정보통신부, 한국지능정보사회진흥원
+- AI 그랜드 챌린지 수학 문제 풀이 부문에서 계산 유형을 먼저 분류한 뒤 계산하는 구조를 제안하고 구현했습니다. 본선 20팀에 진입했으며 후속 연구 과제 수주에 기여했습니다.
+
+**학력 및 자격**
+
+- 전남대학교 통계학과 경제학 복수전공, 학사, 2013.03 – 2019.08, 학점 3.81 / 4.5
+- 정보처리기사 2019.05, ADsP 데이터분석 준전문가 2019.07
+
+</details>
