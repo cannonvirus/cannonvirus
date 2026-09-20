@@ -1,20 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 212" width="880" height="212" role="img" aria-label="Sohyun Ju (주소현), Vision AI engineer, edge inference optimization. 5 years 7 months in production. 7 registered patents as co-inventor, 1st place in the 2021 tracking contest as a team, AI Grand Challenge final 20.">
-<title>Sohyun Ju (주소현), Vision AI engineer, edge inference optimization. 5 years 7 months in production. 7 registered patents as co-inventor, 1st place in the 2021 tracking contest as a team, AI Grand Challenge final 20.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 344" width="880" height="344" role="img" aria-label="주소현 Sohyun Ju, Vision AI 엔지니어. 데이터를 더 모으는 대신 원인을 찾는다. 모델 크기가 아니라 손실함수: 개체 체중 라벨이 없는 조건에서 약지도 Custom Loss를 직접 설계해 평균 체중 정확도 98.2%. 데이터 양이 아니라 원인 분석: 분포와 어긋난 활성화함수를 Scaled Sigmoid로 재설계해 자돈 구간 오차 0.2kg 개선. 모델에서 끝내지 않는다: C++, CUDA, TensorRT로 올려 현장 운영까지 직접 담당, 100여 현장 상용 배포. 엣지 추론 최적화, 5년 7개월 상용 개발.">
+<title>주소현 Sohyun Ju, Vision AI 엔지니어. 데이터를 더 모으는 대신 원인을 찾는다. 모델 크기가 아니라 손실함수: 개체 체중 라벨이 없는 조건에서 약지도 Custom Loss를 직접 설계해 평균 체중 정확도 98.2%. 데이터 양이 아니라 원인 분석: 분포와 어긋난 활성화함수를 Scaled Sigmoid로 재설계해 자돈 구간 오차 0.2kg 개선. 모델에서 끝내지 않는다: C++, CUDA, TensorRT로 올려 현장 운영까지 직접 담당, 100여 현장 상용 배포. 엣지 추론 최적화, 5년 7개월 상용 개발.</title>
 <style>
   .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace} .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}
   
   @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.15}} .blink{animation:blink 1.2s steps(1) infinite}
 </style>
-<rect x="8" y="8" width="870" height="202" rx="9" fill="#010409"/><rect x="2" y="2" width="870" height="202" rx="9" fill="#0d1117" stroke="#30363d" stroke-width="1.6"/>
-<text x="30.0" y="44.0" class="mono" fill="#7d8590" font-size="11.5" letter-spacing="1.4">VISION AI   /   EDGE INFERENCE OPTIMIZATION   /   5 YR 7 MO IN PRODUCTION</text>
-<text x="844.0" y="44.0" class="sans" fill="#9da7b3" font-size="15" text-anchor="end" font-weight="600">주소현</text>
-<text x="28" y="108" class="sans" font-size="54" font-weight="800" letter-spacing="-1.5"><tspan fill="#f0f6fc">SOHYUN JU</tspan><tspan fill="#7d8590" dx="16">/ VISION AI</tspan></text>
-<text x="30.0" y="144.0" class="sans" fill="#9da7b3" font-size="16" font-style="italic">models trained, compiled for Jetson in C++ and CUDA, then measured in the field</text>
-<line x1="30" y1="164" x2="844" y2="164" stroke="#30363d"/>
-<text x="30.0" y="189.0" class="mono" fill="#8fd400" font-size="15" font-weight="700">7</text>
-<text x="49.3" y="189.0" class="mono" fill="#9da7b3" font-size="12">registered patents, co-inventor</text>
-<text x="313.9" y="189.0" class="mono" fill="#8fd400" font-size="15" font-weight="700">1st</text>
-<text x="351.8" y="189.0" class="mono" fill="#9da7b3" font-size="12">2021 tracking contest, team</text>
-<text x="586.7" y="189.0" class="mono" fill="#8fd400" font-size="15" font-weight="700">Top 20</text>
-<text x="652.5" y="189.0" class="mono" fill="#9da7b3" font-size="12">AI Grand Challenge finals</text>
+<rect x="8" y="8" width="870" height="334" rx="9" fill="#010409"/><rect x="2" y="2" width="870" height="334" rx="9" fill="#0d1117" stroke="#30363d" stroke-width="1.6"/>
+<text x="30.0" y="42.0" class="mono" fill="#7d8590" font-size="11.5" letter-spacing="1.4">VISION AI   /   EDGE INFERENCE OPTIMIZATION   /   5 YR 7 MO IN PRODUCTION</text>
+<text x="844.0" y="43.0" class="sans" fill="#f0f6fc" font-size="16" text-anchor="end" font-weight="700">주소현   SOHYUN JU</text>
+<text x="28.0" y="102.0" class="sans" fill="#f0f6fc" font-size="38" font-weight="800" letter-spacing="-.8">데이터를 더 모으는 대신</text>
+<text x="28" y="150" class="sans" font-size="38" font-weight="800" letter-spacing="-.8"><tspan fill="#8fd400">원인</tspan><tspan fill="#f0f6fc">을 찾습니다</tspan></text>
+<text x="30.0" y="184.0" class="sans" fill="#9da7b3" font-size="15" font-style="italic">models trained, compiled for Jetson in C++ and CUDA, then measured in the field</text>
+<line x1="30" y1="208" x2="844" y2="208" stroke="#30363d"/>
+<rect x="30" y="230" width="3" height="16" rx="1.5" fill="#8fd400"/>
+<text x="42.0" y="243.0" class="sans" fill="#f0f6fc" font-size="14.5" font-weight="700">모델 크기가 아니라 손실함수</text>
+<text x="30.0" y="273.0" class="sans" fill="#9da7b3" font-size="12">개체 체중 라벨이 없는 조건에서</text>
+<text x="30.0" y="292.0" class="sans" fill="#9da7b3" font-size="12">약지도 Custom Loss를 직접 설계</text>
+<text x="30.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">→</text>
+<text x="48.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">평균 체중 정확도 98.2%</text>
+<rect x="310" y="230" width="3" height="16" rx="1.5" fill="#8fd400"/>
+<text x="322.0" y="243.0" class="sans" fill="#f0f6fc" font-size="14.5" font-weight="700">데이터 양이 아니라 원인 분석</text>
+<text x="310.0" y="273.0" class="sans" fill="#9da7b3" font-size="12">분포와 어긋난 활성화함수를</text>
+<text x="310.0" y="292.0" class="sans" fill="#9da7b3" font-size="12">Scaled Sigmoid로 재설계</text>
+<text x="310.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">→</text>
+<text x="328.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">자돈 구간 오차 0.2kg 개선</text>
+<rect x="590" y="230" width="3" height="16" rx="1.5" fill="#8fd400"/>
+<text x="602.0" y="243.0" class="sans" fill="#f0f6fc" font-size="14.5" font-weight="700">모델에서 끝내지 않는다</text>
+<text x="590.0" y="273.0" class="sans" fill="#9da7b3" font-size="12">C++, CUDA, TensorRT로 올려</text>
+<text x="590.0" y="292.0" class="sans" fill="#9da7b3" font-size="12">현장 운영까지 직접 담당</text>
+<text x="590.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">→</text>
+<text x="608.0" y="320.0" class="mono" fill="#8fd400" font-size="12.5" font-weight="700">100여 현장 상용 배포</text>
 </svg>

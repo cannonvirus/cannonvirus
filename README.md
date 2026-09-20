@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/0-hero-dark.svg">
-  <img src="assets/0-hero-light.svg" width="100%" alt="주소현 (Sohyun Ju), Vision AI 개발자, 엣지 추론 최적화. 5년 7개월간 상용 영상 인식 시스템 개발. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
+  <img src="assets/0-hero-light.svg" width="100%" alt="주소현 Sohyun Ju, Vision AI 엔지니어. 데이터를 더 모으는 대신 원인을 찾는다. 모델 크기가 아니라 손실함수: 개체 체중 라벨이 없는 조건에서 약지도 Custom Loss를 직접 설계해 평균 체중 정확도 98.2%. 데이터 양이 아니라 원인 분석: 분포와 어긋난 활성화함수를 Scaled Sigmoid로 재설계해 자돈 구간 오차 0.2kg 개선. 모델에서 끝내지 않는다: C++, CUDA, TensorRT로 올려 현장 운영까지 직접 담당, 100여 현장 상용 배포. 엣지 추론 최적화, 5년 7개월 상용 개발.">
 </picture>
 
-5년 7개월간 영상 인식 모델과 엣지 실시간 처리 시스템을 개발했습니다. 모델 학습부터 C++ 영상 처리와 현장 적용까지 담당했고, 실증 결과와 고객 피드백을 바탕으로 모델을 개선했습니다.
-
-[cannonvirus@gmail.com](mailto:cannonvirus@gmail.com) &nbsp;|&nbsp; [Velog](https://velog.io/@juju2123/posts) &nbsp;|&nbsp; 인트플로우 AI 개발팀 선임연구원, 2020.06 – 2026.01
+<a href="mailto:cannonvirus@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-mail-dark.svg"><img src="assets/link-mail-light.svg" height="46" alt="이메일 cannonvirus@gmail.com"></picture></a>
+<a href="https://velog.io/@juju2123/posts"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-velog-dark.svg"><img src="assets/link-velog-light.svg" height="46" alt="Velog 블로그"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-now-dark.svg"><img src="assets/link-now-light.svg" height="46" alt="인트플로우 AI 개발팀 선임연구원, 2020.06 – 2026.01"></picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/1-peoplecount-pipeline-dark.svg">

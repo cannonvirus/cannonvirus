@@ -5,38 +5,38 @@
   @keyframes k6{0%{opacity:1}16.667%{opacity:0}100%{opacity:0}}.h6{opacity:0;animation:k6 8.40s steps(1) infinite}
   @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.15}} .blink{animation:blink 1.2s steps(1) infinite}
 </style>
-<rect x="8" y="8" width="508" height="318" rx="9" fill="#1f2328"/><rect x="2" y="2" width="508" height="318" rx="9" fill="#0d1117" stroke="#1f2328" stroke-width="1.6"/>
-<text x="26.0" y="40.0" class="sans" fill="#e3b341" font-size="16" font-weight="800">2</text>
-<text x="44.0" y="40.0" class="sans" fill="#f0f6fc" font-size="15" font-weight="800" letter-spacing=".2">MEASURED AGAINST GROUND TRUTH</text>
-<text x="26.0" y="68.0" class="mono" fill="#7d8590" font-size="10.5" letter-spacing="1.2">VALUE</text>
-<text x="112.0" y="68.0" class="mono" fill="#7d8590" font-size="10.5" letter-spacing="1.2">WHAT</text>
-<text x="276.0" y="68.0" class="mono" fill="#7d8590" font-size="10.5" letter-spacing="1.2">GROUND TRUTH</text>
-<line x1="26" y1="77" x2="486" y2="77" stroke="#30363d"/>
-<rect x="18" y="86" width="476" height="28" rx="5" fill="#ffffff" fill-opacity=".09" class="h6" style="animation-delay:0.00s"/>
-<text x="26.0" y="105.0" class="mono" fill="#e3b341" font-size="14" font-weight="700">99.8 %</text>
-<text x="112.0" y="105.0" class="sans" fill="#f0f6fc" font-size="12.5" font-weight="600">돼지 카운팅 정확도</text>
-<text x="276.0" y="105.0" class="sans" fill="#9da7b3" font-size="12">출하성적서의 실제 마릿수</text>
-<rect x="18" y="119" width="476" height="28" rx="5" fill="#ffffff" fill-opacity=".09" class="h6" style="animation-delay:1.40s"/>
-<text x="26.0" y="138.0" class="mono" fill="#e3b341" font-size="14" font-weight="700">98.2 %</text>
-<text x="112.0" y="138.0" class="sans" fill="#f0f6fc" font-size="12.5" font-weight="600">평균 체중 정확도</text>
-<text x="276.0" y="138.0" class="sans" fill="#9da7b3" font-size="12">출하 단위 평균 체중</text>
-<rect x="18" y="152" width="476" height="28" rx="5" fill="#ffffff" fill-opacity=".09" class="h6" style="animation-delay:2.80s"/>
-<text x="26.0" y="171.0" class="mono" fill="#e3b341" font-size="14" font-weight="700">5 %</text>
-<text x="112.0" y="171.0" class="sans" fill="#f0f6fc" font-size="12.5" font-weight="600">개체 체중 평균 오차</text>
-<text x="276.0" y="171.0" class="sans" fill="#9da7b3" font-size="12">40두, 국가 주관 실험 인증 통과</text>
-<rect x="18" y="185" width="476" height="28" rx="5" fill="#ffffff" fill-opacity=".09" class="h6" style="animation-delay:4.20s"/>
-<text x="26.0" y="204.0" class="mono" fill="#e3b341" font-size="14" font-weight="700">96.4 %</text>
-<text x="112.0" y="204.0" class="sans" fill="#f0f6fc" font-size="12.5" font-weight="600">피플 카운팅 정확도</text>
-<text x="276.0" y="204.0" class="sans" fill="#9da7b3" font-size="12">3개월 점심 인원, 식수 태깅기 로그</text>
-<rect x="18" y="218" width="476" height="28" rx="5" fill="#ffffff" fill-opacity=".09" class="h6" style="animation-delay:5.60s"/>
-<text x="26.0" y="237.0" class="mono" fill="#e3b341" font-size="14" font-weight="700">94.6 %</text>
-<text x="112.0" y="237.0" class="sans" fill="#f0f6fc" font-size="12.5" font-weight="600">혼잡도 3단계 판정</text>
-<text x="276.0" y="237.0" class="sans" fill="#9da7b3" font-size="12">팀원이 현장 사진에 붙인 라벨</text>
-<rect x="18" y="251" width="476" height="28" rx="5" fill="#ffffff" fill-opacity=".09" class="h6" style="animation-delay:7.00s"/>
-<text x="26.0" y="270.0" class="mono" fill="#e3b341" font-size="14" font-weight="700">0.3 °C</text>
-<text x="112.0" y="270.0" class="sans" fill="#f0f6fc" font-size="12.5" font-weight="600">열화상 온도 오차, 이내</text>
-<text x="276.0" y="270.0" class="sans" fill="#9da7b3" font-size="12">접촉식 체온계</text>
-<text x="26.0" y="300.0" class="sans" fill="#9da7b3" font-size="12.5" font-style="italic">모든 수치는 무엇을 정답으로 두고 쟀는지와 함께 적는다</text>
+<rect x="8" y="8" width="508" height="318" rx="9" fill="#1f2328"/><rect x="2" y="2" width="508" height="318" rx="9" fill="#ffffff" stroke="#1f2328" stroke-width="1.6"/>
+<text x="26.0" y="40.0" class="sans" fill="#0a5ea8" font-size="16" font-weight="800">2</text>
+<text x="44.0" y="40.0" class="sans" fill="#1f2328" font-size="15" font-weight="800" letter-spacing=".2">MEASURED AGAINST GROUND TRUTH</text>
+<text x="26.0" y="68.0" class="mono" fill="#6e7781" font-size="10.5" letter-spacing="1.2">VALUE</text>
+<text x="112.0" y="68.0" class="mono" fill="#6e7781" font-size="10.5" letter-spacing="1.2">WHAT</text>
+<text x="276.0" y="68.0" class="mono" fill="#6e7781" font-size="10.5" letter-spacing="1.2">GROUND TRUTH</text>
+<line x1="26" y1="77" x2="486" y2="77" stroke="#d0d7de"/>
+<rect x="18" y="86" width="476" height="28" rx="5" fill="#d3e8fa" fill-opacity=".85" class="h6" style="animation-delay:0.00s"/>
+<text x="26.0" y="105.0" class="mono" fill="#0a5ea8" font-size="14" font-weight="700">99.8 %</text>
+<text x="112.0" y="105.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="600">돼지 카운팅 정확도</text>
+<text x="276.0" y="105.0" class="sans" fill="#57606a" font-size="12">출하성적서의 실제 마릿수</text>
+<rect x="18" y="119" width="476" height="28" rx="5" fill="#d3e8fa" fill-opacity=".85" class="h6" style="animation-delay:1.40s"/>
+<text x="26.0" y="138.0" class="mono" fill="#0a5ea8" font-size="14" font-weight="700">98.2 %</text>
+<text x="112.0" y="138.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="600">평균 체중 정확도</text>
+<text x="276.0" y="138.0" class="sans" fill="#57606a" font-size="12">출하 단위 평균 체중</text>
+<rect x="18" y="152" width="476" height="28" rx="5" fill="#d3e8fa" fill-opacity=".85" class="h6" style="animation-delay:2.80s"/>
+<text x="26.0" y="171.0" class="mono" fill="#0a5ea8" font-size="14" font-weight="700">5 %</text>
+<text x="112.0" y="171.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="600">개체 체중 평균 오차</text>
+<text x="276.0" y="171.0" class="sans" fill="#57606a" font-size="12">40두, 국가 주관 실험 인증 통과</text>
+<rect x="18" y="185" width="476" height="28" rx="5" fill="#d3e8fa" fill-opacity=".85" class="h6" style="animation-delay:4.20s"/>
+<text x="26.0" y="204.0" class="mono" fill="#0a5ea8" font-size="14" font-weight="700">96.4 %</text>
+<text x="112.0" y="204.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="600">피플 카운팅 정확도</text>
+<text x="276.0" y="204.0" class="sans" fill="#57606a" font-size="12">3개월 점심 인원, 식수 태깅기 로그</text>
+<rect x="18" y="218" width="476" height="28" rx="5" fill="#d3e8fa" fill-opacity=".85" class="h6" style="animation-delay:5.60s"/>
+<text x="26.0" y="237.0" class="mono" fill="#0a5ea8" font-size="14" font-weight="700">94.6 %</text>
+<text x="112.0" y="237.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="600">혼잡도 3단계 판정</text>
+<text x="276.0" y="237.0" class="sans" fill="#57606a" font-size="12">팀원이 현장 사진에 붙인 라벨</text>
+<rect x="18" y="251" width="476" height="28" rx="5" fill="#d3e8fa" fill-opacity=".85" class="h6" style="animation-delay:7.00s"/>
+<text x="26.0" y="270.0" class="mono" fill="#0a5ea8" font-size="14" font-weight="700">0.3 °C</text>
+<text x="112.0" y="270.0" class="sans" fill="#1f2328" font-size="12.5" font-weight="600">열화상 온도 오차, 이내</text>
+<text x="276.0" y="270.0" class="sans" fill="#57606a" font-size="12">접촉식 체온계</text>
+<text x="26.0" y="300.0" class="sans" fill="#57606a" font-size="12.5" font-style="italic">모든 수치는 무엇을 정답으로 두고 쟀는지와 함께 적는다</text>
 <rect x="532" y="8" width="346" height="318" rx="9" fill="#1f2328"/><rect x="526" y="2" width="346" height="318" rx="9" fill="#ffffff" stroke="#1f2328" stroke-width="1.6"/>
 <text x="550.0" y="40.0" class="sans" fill="#0a5ea8" font-size="16" font-weight="800">3</text>
 <text x="568.0" y="40.0" class="sans" fill="#1f2328" font-size="15" font-weight="800" letter-spacing=".2">ONE DROPS, FOUR KEEP COUNTING</text>
