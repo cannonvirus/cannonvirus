@@ -4,7 +4,7 @@
 </picture>
 
 <a href="mailto:cannonvirus@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-mail-dark.svg"><img src="assets/link-mail-light.svg" height="46" alt="이메일 cannonvirus@gmail.com"></picture></a>
-<a href="https://velog.io/@juju2123/posts"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-velog-dark.svg"><img src="assets/link-velog-light.svg" height="46" alt="Velog 블로그"></picture></a>
+<a href="https://cannonvirus.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-blog-dark.svg"><img src="assets/link-blog-light.svg" height="46" alt="블로그 cannonvirus.github.io"></picture></a>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-now-dark.svg"><img src="assets/link-now-light.svg" height="46" alt="인트플로우 AI 개발팀 선임연구원, 2020.06 – 2026.01"></picture>
 
 <picture>
