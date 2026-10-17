@@ -34,12 +34,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/8-personal-dark.svg">
-  <img src="assets/8-personal-light.svg" width="100%" alt="8. 개인 프로젝트. boardgame_ai: 보드게임 AI 개발 rollout 기반 전략 탐색  &amp;  범용 LLM 수 선택. VISER: 관심 분야 기술 뉴스 추적 뉴스레터 선별  &amp;  요약  &amp;  개인 선호 반영. Stock_1000: 국내 주식 투자 전략 개발 주도주 선별  &amp;  분할 매수 시점  &amp;  백테스트. X_Idea: X 기술 게시글 아이디어 수집 도구 카드 정리  &amp;  직접 써보기  &amp;  주말 MVP.">
+  <img src="assets/8-personal-light.svg" width="100%" alt="8. 개인 프로젝트. boardgame_ai: 보드게임 34종 로컬 AI Rust 규칙 엔진  &amp;  rollout 기반 수 선택  &amp;  웹 대국. VISER: 관심 분야 기술 뉴스 추적 뉴스레터 선별  &amp;  요약  &amp;  개인 선호 반영. Stock_1000: 국내 주식 투자 전략 개발 종가베팅 모의 운영  &amp;  주도주 산출  &amp;  백테스트. X_Idea: X 기술 게시글 아이디어 수집 도구 카드 정리  &amp;  직접 써보기  &amp;  주말 MVP.">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/9-stack-dark.svg">
-  <img src="assets/9-stack-light.svg" width="100%" alt="기술 스택: C++, Python, CUDA, TensorRT, DeepStream, NVIDIA VPI, OpenMP, PyTorch, YOLO, SAM 3, Docker, MQTT, WebSocket, Jetson Nano 2GB부터 Orin. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
+  <img src="assets/9-stack-light.svg" width="100%" alt="기술 스택: C++, Python, CUDA, TensorRT, DeepStream, NVIDIA VPI, OpenMP, OpenCV, PyTorch, YOLO, SAM 3, ByteTrack, Docker, MQTT, WebSocket, Jetson Nano 2GB부터 Orin, JetPack. 등록 특허 7건 공동 발명자, 2021 추적 영상 인식 경진대회 팀 1위, AI 그랜드 챌린지 본선 20팀.">
 </picture>
 
 <details>
@@ -80,9 +80,9 @@
 
 **개인 프로젝트** &nbsp;|&nbsp; 직접 쓰려고 만든 것들
 
-- **boardgame_ai** — 보드게임 일곱 종을 한국어 웹에서 돌리는 로컬 AI입니다. 엔진이 규칙과 점수를 관리하고, 전략은 자기 관측과 합법 행동만으로 수를 고릅니다. 기준 전략은 paired rollout으로 행동을 선택하며, 후보끼리 랭킹전을 붙여 교체를 판단합니다. 유료 API를 쓰지 않습니다.
-- **VISER** — 관심사에 맞는 기술 뉴스를 수집해 요약하고, 읽은 내용과 피드백에서 개선 아이디어를 찾는 개인비서입니다. 원문과 처리 실패 기록을 SQLite에 보존해 다시 처리할 수 있습니다.
-- **Stock_1000** — 한국 주식 주도주를 대상으로 눌림 전략을 모의 운영하고 백테스트합니다. 스케줄러가 장중과 장마감 작업을 돌리고, FastAPI 대시보드에서 확인합니다.
+- **boardgame_ai** — 보드게임 34종을 한국어 웹에서 두는 로컬 AI입니다. 규칙 엔진은 모두 Rust이고, 엔진이 규칙과 점수를 관리합니다. 전략은 자기 관측과 합법 행동만으로 수를 고르며, 기준 전략은 후보 행동마다 짝지은 가상 대국(rollout)을 돌려 행동을 선택합니다. 유료 API를 쓰지 않습니다.
+- **VISER** — 관심사에 맞는 기술 뉴스레터를 수집해 요약하고 일일 브리핑과 주간 보고서를 만드는 개인비서입니다. 등록한 업무 문제에는 관련 기사와 근거를 연결합니다. 원문과 처리 실패 기록을 SQLite에 보존해 다시 처리할 수 있습니다.
+- **Stock_1000** — 한국 주식시장에서 종가베팅 전략을 모의 운영하고 백테스트합니다. 장대양봉 기준봉을 하루 관찰한 뒤 2일차 15시에 매수합니다. 스케줄러가 장중과 장마감 작업을 돌리고, FastAPI 대시보드에서 확인합니다.
 - **X_Idea** — 저장한 도구와 아이디어를 카드로 정리하고, 마음에 드는 것은 주말 MVP로 만들어 결과를 다시 카드에 반영합니다.
 
 **특허 및 대외 활동**
